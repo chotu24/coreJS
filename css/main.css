@@ -1,0 +1,31 @@
+
+#marginExample{
+
+   width:600px;
+
+   margin: 0 auto;
+
+}
+.mainContainer{
+
+		border: 1px solid red;margin: 0 auto;
+
+}
+.container{
+
+	border: 1px solid grey;
+
+	width: 120px;
+
+	position: fixed;
+
+}
+.content{
+
+	margin-left:120px;
+
+	position: relative;
+
+	border: 1px solid green
+
+}
