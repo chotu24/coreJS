@@ -1,8 +1,8 @@
 
 var Repo = require('./repo');
-var repo;
+
 var TaskRepo = function(){
-	var repo = new Repo();
+	var repo = Repo;
 	var createRepo = function(repos){
 		repo.save(repos);
 	};

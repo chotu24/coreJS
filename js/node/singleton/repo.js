@@ -4,7 +4,7 @@ var Repo = function(){
 	var called = 0; 
 	var save = function(save){
 		called++;
-		console.log('saving the task'+ save);
+		console.log('saving the task '+ save);
 	}
 
 	return {
@@ -12,4 +12,4 @@ var Repo = function(){
 	}
 }
 
-module.exports = Repo;
+module.exports = Repo();
