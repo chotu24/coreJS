@@ -6,6 +6,8 @@ var Task = function(data){
 	this.completed = data.completed;
 }
 
+//instead of having all this like a chaos we have TaskService inside 
+// TaskService Wrapper
 var TaskService = function(){
 	return{
 		complete: function(task){
@@ -55,3 +57,4 @@ var myTask = new Task({
 
 TaskSeviceWrapper.completeAndNotify(myTask);
 console.log(myTask);
+	
